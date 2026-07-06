@@ -1,5 +1,5 @@
-from auth import get_access_token
-from extract import get_activities
+from .auth import get_access_token
+from .extract import get_activities
 import pandas as pd
 
 def main():
